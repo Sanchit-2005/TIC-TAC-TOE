@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  background-color: rgba(0, 183, 181, 0.7);
+}
+.container {
+  height: 70vh;
+  width: 70;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game {
+  height: 60vh;
+  width: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  
+  background-color: rgba(254, 253, 223, 0.8);
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  font-size: 8vmin;
+  color: #e87f24;
+}
+
+
+.reset{
+    height: 7vmin;
+    width: 20vmin;
+    border-radius: 7px;
+    background-color: #091413;
+    color: #FFF6F6;
+    font-size: 15px;
+    outline: none;
+    border: none;
+
+}
+#head{
+ 
+  background-color: #1A1953;
+  color: white;
+  margin-top: 18px;
+  width:40vmin;
+  text-align: center;
+  display: flex;
+ margin-left:40%;
+ 
+ border-radius: 2vmin;
+ height:10vmin ;
+ align-items: center;
+ font-size: 32px; 
+ justify-content: center;
+ align-items: center; 
+ 
+ 
+}
+ 
+i{
+  margin-right: 20px;
+}
+
+ .Winnner{
+      flex: 1;
+     display: flex;
+     background-color: #EEEEEE;
+     text-align: center;
+     justify-content: center;
+     
+     margin-left: 50px;
+     margin-right: 50px;
+     align-items: center;
+     height: 10vmin;
+     font-size: 40px;
+     color: #1F6F5F;
+     display: none;
+     padding-top: 10px;
+}
+
+.hide{
+  display: none;
+}
